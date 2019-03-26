@@ -16,15 +16,33 @@ h1 {
   background-color: black;
   color: white;
 }
-#container {
+.keys {
   display: flex;
   justify-content: center;
 }
 .drum-key {
-  height: 50px;
-  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 70px;
   margin: 10px;
   border: black solid 3px;
   border-radius: 5px;
-  background-color: rgb(116, 116, 116);
+  /* background-color: rgb(80, 80, 80); */
+  background: rgba(0, 0, 0, 0.65);
+  transition: all 0.07s;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: orange;
+  box-shadow: 0 0 10px orange;
+}
+h2 {
+  color: white;
+}
+p {
+  font-size: 13px;
+  color: orange;
 }
