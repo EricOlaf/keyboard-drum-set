@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-image: url(foo.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top;
+}
+h1 {
+  text-align: center;
+  margin: 100px 0 50px 0;
+  background-color: black;
+  color: white;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+.drum-key {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: black solid 3px;
+  border-radius: 5px;
+  background-color: rgb(116, 116, 116);
+}
